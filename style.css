@@ -85,3 +85,19 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .set {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .drum {
+    width: 130px;
+    height: 130px;
+    line-height: 1;
+  }
+}
